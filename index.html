@@ -1,1 +1,68 @@
-Hello
+hello
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>テキストにスタイル設定</title>
+    <style>
+        /*これはコメントです。*/
+        /*
+        複数行コメントできます。
+        */
+
+        h1 {
+            font-size: 2.5em;
+            font-family: cursive;
+            color: #ff0000;
+        }
+        h2 {
+            font-size: 2.0em;
+            font-family: fantasy;
+            color: rgb(0, 255, 255);
+        }
+        p {
+            font-size: 1.2;
+            font-family: serif;
+            color: blue;
+        }
+        span {
+            font:bold italic 8.0em serif;
+            background-color: magenta;
+            color: white;
+        }
+        h3{
+            font-size: 200%;
+            background-color: black;
+            color: white !important;
+            /*importantはたぐに直接書き込むより強い*/
+
+        }
+        #name{
+            color :blanchedalmond;
+        }
+        h4{
+            background-color: black;
+        }
+        .shiro{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- これはコメントです。 -->
+    <h1>Hello!yamachan_kisyoi</h1>
+    <h1 id="name">abcefg</h1>
+    <h2>yamachan_enjoy</h2>
+    <p>This is <span>sample</span> content.</p>
+    <h3>こんにちわ</h3>
+    <h3 style="color: #00ff00; font-size: 300%;">やまちゃんエンジョイ</h3>
+    <h4>1</h4>
+    <h4 class="shiro">2</h4>
+    <h4 class="shiro">3</h4>
+    <h4>4</h4>
+    
+    
+</body>
+</html>
