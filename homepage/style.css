@@ -1,0 +1,44 @@
+body,
+p,
+form,
+input {
+    margin: 0;
+}
+
+#form {
+    width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    border: 5px solid #274cddc2;
+    color: #274cddc2;
+    font-family: cursive;
+}
+
+form p {
+    font-size: 14px;
+}
+
+.formtitle {
+    text-align: center;
+}
+
+
+.mail,
+.pass {
+    margin-bottom: 20px;
+}
+
+input[type="email"],
+input[type="password"] {
+    width: 300px;
+    padding: 4px;
+    font-size: 14px;
+}
+
+.btn {
+    text-align: right;
+}
+body {
+    background-image: url(white_00014.jpg);
+    background-size: cover;
+}
